@@ -1,0 +1,14 @@
+{
+    "name": "C Development Environment",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "c_env",
+    "workspaceFolder": "/workspace",
+    "extensions": [
+        "ms-vscode.cpptools"
+    ],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/sh"
+    },
+    "runArgs": ["--init"],
+    "remoteUser": "root"
+}

@@ -1,0 +1,9 @@
+services:
+  c_env:
+    build:
+      context: .
+      dockerfile: docker/c_env/Dockerfile
+    container_name: c_env
+    volumes:
+      - .:/workspace
+    command: sleep infinity
